@@ -8,7 +8,7 @@ namespace ConsoleApplication1
     static void Main (string[]args)
     {
 
-      for (int i = 2; i <= 10; i++)
+      for (int i = 2; i <= 2000000; i++)
 	{
 	  if (isSimple (i))
 	    {
@@ -16,8 +16,8 @@ namespace ConsoleApplication1
 	    }
 
 	}
-
-      Console.WriteLine (sum);
+//Сумма всех простых чисел до 2 миллионов:
+      Console.WriteLine (sum)
     }
 
     private static bool isSimple (int N)

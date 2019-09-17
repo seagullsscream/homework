@@ -12,11 +12,12 @@ namespace ConsoleApplication1
 	{
 	  if (isSimple (i))
 	    {
+		  //Сумма всех простых чисел до 2 миллионов:
 	      sum += i;
 	    }
 
 	}
-//Сумма всех простых чисел до 2 миллионов:
+
       Console.WriteLine (sum)
     }
 
